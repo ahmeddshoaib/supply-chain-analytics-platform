@@ -1,20 +1,20 @@
-# Supply Chain Analytics Platform
+# Supply Chain Operations Analytics
 
-An end-to-end Python case study that turns supplier, purchase-order, inventory and demand data into decisions for procurement and operations teams.
+This is a self-directed Python portfolio project built on synthetic manufacturing data. It is not an Ibrahim Fibres system, it does not contain employer data, and it was not submitted as part of my MSc. I built it to show how the supplier, purchasing, inventory and lead-time questions I handled professionally can be analysed in a reproducible workflow.
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-16324F.svg)](https://www.python.org/)
-[![Tests](https://github.com/ahmeddshoaib/Supply-chain-analytics-platform/actions/workflows/tests.yml/badge.svg)](https://github.com/ahmeddshoaib/Supply-chain-analytics-platform/actions/workflows/tests.yml)
+[![Tests](https://github.com/ahmeddshoaib/supply-chain-analytics-platform/actions/workflows/tests.yml/badge.svg)](https://github.com/ahmeddshoaib/supply-chain-analytics-platform/actions/workflows/tests.yml)
 [![License MIT](https://img.shields.io/badge/license-MIT-2E6F9E.svg)](LICENSE)
 
-## Why this project exists
+## Operational scope
 
-Supply-chain teams rarely need another dashboard with disconnected charts. They need a reliable way to answer three operational questions:
+The analysis answers three practical questions:
 
 1. Which suppliers combine poor service with material spend exposure?
 2. Which products need immediate replenishment attention?
 3. Which transparent forecasting baseline should planning teams use before adding model complexity?
 
-This repository implements that workflow on a fully synthetic manufacturing dataset. It reflects the supplier, imports, logistics and lead-time reporting problems I managed professionally before completing an MSc in Business Analytics.
+The data is synthetic, while the choice of questions reflects my work across imports, procurement, logistics, Oracle ERP and daily supplier reporting.
 
 ## Result snapshot
 
@@ -80,7 +80,7 @@ The current validation report covers:
 ```text
 .
 ├── data/                         # Synthetic source datasets and data dictionary
-├── scripts/run_analysis.py       # Reproducible end-to-end pipeline
+├── scripts/run_analysis.py       # Reproducible analysis pipeline
 ├── src/supply_chain_analytics.py # Validation and analytical functions
 ├── tests/                        # Unit tests
 ├── outputs/                      # Scorecards, backtests, KPIs and figures
