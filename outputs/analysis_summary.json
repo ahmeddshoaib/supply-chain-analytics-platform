@@ -1,0 +1,99 @@
+{
+  "validation": [
+    {
+      "dataset": "suppliers",
+      "rows": 50,
+      "columns": 8,
+      "missing_required_columns": "",
+      "null_cells": 0,
+      "duplicate_rows": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "purchase_orders",
+      "rows": 5000,
+      "columns": 10,
+      "missing_required_columns": "",
+      "null_cells": 0,
+      "duplicate_rows": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "inventory",
+      "rows": 500,
+      "columns": 8,
+      "missing_required_columns": "",
+      "null_cells": 0,
+      "duplicate_rows": 0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "demand_history",
+      "rows": 12000,
+      "columns": 3,
+      "missing_required_columns": "",
+      "null_cells": 0,
+      "duplicate_rows": 0,
+      "status": "PASS"
+    }
+  ],
+  "kpis": [
+    {
+      "KPI": "Purchase order spend",
+      "Value": 37242443.43,
+      "Unit": "GBP"
+    },
+    {
+      "KPI": "Delayed order rate",
+      "Value": 18.62,
+      "Unit": "%"
+    },
+    {
+      "KPI": "Suppliers reviewed",
+      "Value": 50.0,
+      "Unit": "count"
+    },
+    {
+      "KPI": "High-risk suppliers",
+      "Value": 4.0,
+      "Unit": "count"
+    },
+    {
+      "KPI": "Inventory value",
+      "Value": 44022081.589999996,
+      "Unit": "GBP"
+    },
+    {
+      "KPI": "Products below reorder point",
+      "Value": 62.0,
+      "Unit": "count"
+    },
+    {
+      "KPI": "Immediate A-class replenishment",
+      "Value": 1.0,
+      "Unit": "count"
+    },
+    {
+      "KPI": "Best backtest WAPE",
+      "Value": 9.872285882981814,
+      "Unit": "%"
+    }
+  ],
+  "forecast_models": [
+    {
+      "Model": "Moving Average 3",
+      "MAE": 72.83,
+      "WAPE": 9.872
+    },
+    {
+      "Model": "Naive",
+      "MAE": 76.724,
+      "WAPE": 10.4
+    },
+    {
+      "Model": "Seasonal Naive",
+      "MAE": 96.142,
+      "WAPE": 13.032
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+Supplier_ID,Supplier_Name,Country,Category,Lead_Time_Days,On_Time_Delivery_Percent,Defect_Rate_Percent,Annual_Spend
+S001,Supplier 1,China,Raw Materials,54,70.2,3.96,473728.38
+S002,Supplier 2,Germany,Chemicals,41,71.4,6.49,629769.94
+S003,Supplier 3,UK,Raw Materials,17,91.5,3.7,465841.5
+S004,Supplier 4,India,Chemicals,39,71.1,5.57,157596.8
+S005,Supplier 5,Pakistan,Electronics,49,93.4,3.23,403440.3
+S006,Supplier 6,Germany,Electronics,40,78.6,2.56,577100.58
+S007,Supplier 7,Netherlands,Textiles,34,72.6,1.9,206035.7
+S008,Supplier 8,Turkey,Chemicals,18,87.3,1.47,281347.53
+S009,Supplier 9,India,Electronics,15,72.8,1.46,529350.61
+S010,Supplier 10,India,Machinery,28,87.9,0.26,410878.92
+S011,Supplier 11,India,Chemicals,12,95.8,1.3,46809.94
+S012,Supplier 12,Germany,Machinery,24,94.4,0.68,608085.95
+S013,Supplier 13,Germany,Packaging,48,95.0,2.56,330811.14
+S014,Supplier 14,India,Textiles,54,95.4,5.54,366699.11
+S015,Supplier 15,Germany,Machinery,57,70.3,0.5,255118.09
+S016,Supplier 16,India,Electronics,21,93.1,3.76,267030.17
+S017,Supplier 17,India,Electronics,37,95.1,4.96,732918.98
+S018,Supplier 18,Netherlands,Packaging,13,84.7,4.9,43099.3
+S019,Supplier 19,Turkey,Textiles,12,87.1,0.37,393502.57
+S020,Supplier 20,China,Raw Materials,41,78.9,0.85,413940.65
+S021,Supplier 21,China,Machinery,39,70.1,5.91,647754.84
+S022,Supplier 22,India,Chemicals,15,73.9,1.21,708239.12
+S023,Supplier 23,UAE,Electronics,54,75.8,3.74,103550.43
+S024,Supplier 24,India,Electronics,29,78.3,5.98,518223.2
+S025,Supplier 25,Germany,Raw Materials,59,85.8,1.56,577581.93
+S026,Supplier 26,UAE,Electronics,24,76.0,4.16,252088.86
+S027,Supplier 27,India,Packaging,59,81.9,1.17,618879.03
+S028,Supplier 28,UAE,Chemicals,22,73.0,2.61,700284.04
+S029,Supplier 29,Netherlands,Machinery,28,70.5,0.96,685793.56
+S030,Supplier 30,UAE,Chemicals,47,88.1,4.35,42067.19
+S031,Supplier 31,Netherlands,Textiles,53,75.6,5.8,258026.61
+S032,Supplier 32,Pakistan,Chemicals,53,88.5,5.33,532882.86
+S033,Supplier 33,China,Chemicals,12,85.1,3.92,367689.57
+S034,Supplier 34,India,Raw Materials,34,87.0,5.76,250913.9
+S035,Supplier 35,China,Packaging,43,95.2,4.48,419365.34
+S036,Supplier 36,Netherlands,Textiles,12,68.9,2.2,703907.79
+S037,Supplier 37,Germany,Chemicals,53,81.2,0.36,38436.06
+S038,Supplier 38,China,Packaging,57,81.5,4.91,720441.43
+S039,Supplier 39,UK,Electronics,25,72.5,1.91,384986.61
+S040,Supplier 40,UK,Textiles,22,69.0,1.87,553478.77
+S041,Supplier 41,Pakistan,Packaging,23,92.4,2.5,686683.34
+S042,Supplier 42,Pakistan,Textiles,55,93.6,2.79,553211.08
+S043,Supplier 43,Netherlands,Textiles,41,77.1,1.64,745519.31
+S044,Supplier 44,Turkey,Packaging,32,69.7,6.31,270812.15
+S045,Supplier 45,Netherlands,Machinery,7,92.5,6.08,411353.45
+S046,Supplier 46,Turkey,Raw Materials,7,70.6,0.38,309188.69
+S047,Supplier 47,Turkey,Raw Materials,48,82.1,1.1,430327.47
+S048,Supplier 48,UAE,Packaging,16,93.2,0.35,638639.87
+S049,Supplier 49,Germany,Textiles,58,93.1,1.24,110951.25
+S050,Supplier 50,China,Machinery,45,75.5,1.74,388304.17

@@ -1,0 +1,5 @@
+dataset,rows,columns,missing_required_columns,null_cells,duplicate_rows,status
+suppliers,50,8,,0,0,PASS
+purchase_orders,5000,10,,0,0,PASS
+inventory,500,8,,0,0,PASS
+demand_history,12000,3,,0,0,PASS

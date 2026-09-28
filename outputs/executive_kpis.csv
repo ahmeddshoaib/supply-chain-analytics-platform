@@ -1,0 +1,9 @@
+KPI,Value,Unit
+Purchase order spend,37242443.43,GBP
+Delayed order rate,18.62,%
+Suppliers reviewed,50.0,count
+High-risk suppliers,4.0,count
+Inventory value,44022081.589999996,GBP
+Products below reorder point,62.0,count
+Immediate A-class replenishment,1.0,count
+Best backtest WAPE,9.872285882981814,%
