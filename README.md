@@ -16,6 +16,12 @@ The analysis answers three practical questions:
 
 The data is synthetic, while the choice of questions reflects my work across imports, procurement, logistics, Oracle ERP and daily supplier reporting.
 
+## Professional relevance
+
+At Ibrahim Fibres, I worked across imported and local purchasing, machinery and spare parts, raw materials, letters of credit, customs, shipment tracking, transport and Oracle processing. I also maintained daily Excel reporting on shipment position, lead time, delivery and supplier performance. This repository converts that operational perspective into a public analytical example without reproducing an employer process, system or dataset.
+
+The scenarios are deliberately recognisable to an operations team: a late supplier matters more when spend or material dependence is high; a below-reorder item matters more when it holds a large share of inventory value; and a forecasting method should earn complexity through chronological out-of-sample performance. The code demonstrates how I structure those decisions, while every numerical result comes from the synthetic files in this repository.
+
 ## Result snapshot
 
 | Decision area | Result | Management use |
