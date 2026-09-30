@@ -1,10 +1,6 @@
 # Supply Chain Operations Analytics
 
-This is a self-directed Python portfolio project built on synthetic manufacturing data. It is not an Ibrahim Fibres system, it does not contain employer data, and it was not submitted as part of my MSc. I built it to show how the supplier, purchasing, inventory and lead-time questions I handled professionally can be analysed in a reproducible workflow.
-
-[![Python 3.11](https://img.shields.io/badge/python-3.11-16324F.svg)](https://www.python.org/)
-[![Tests](https://github.com/ahmeddshoaib/supply-chain-analytics-platform/actions/workflows/tests.yml/badge.svg)](https://github.com/ahmeddshoaib/supply-chain-analytics-platform/actions/workflows/tests.yml)
-[![License MIT](https://img.shields.io/badge/license-MIT-2E6F9E.svg)](LICENSE)
+This self-directed project applies Python to supplier performance, purchasing exposure, inventory priorities and demand forecasting. It translates the operational questions I handled professionally into one analytical workflow using demonstration manufacturing data.
 
 ## Operational scope
 
@@ -74,37 +70,24 @@ The analysis fails before KPI calculation if any dataset has missing required fi
 
 The current validation report covers:
 
-| Dataset | Rows | Columns | Result |
+| Dataset | Rows | Columns | Status |
 | --- | ---: | ---: | --- |
 | Suppliers | 50 | 8 | Pass |
 | Purchase orders | 5,000 | 10 | Pass |
 | Inventory | 500 | 8 | Pass |
 | Demand history | 12,000 | 3 | Pass |
 
-## Repository structure
+## Repository guide
 
-```text
-.
-├── data/                         # Synthetic source datasets and data dictionary
-├── scripts/run_analysis.py       # Reproducible analysis pipeline
-├── src/supply_chain_analytics.py # Validation and analytical functions
-├── tests/                        # Unit tests
-├── outputs/                      # Scorecards, backtests, KPIs and figures
-├── .github/workflows/tests.yml   # Automated test workflow
-└── requirements.txt              # Reproducible Python environment
-```
+| Area | What it contains |
+|---|---|
+| `data/` | Four demonstration datasets and their data dictionary |
+| `src/` | Data validation, supplier scoring, inventory classification and forecast evaluation logic |
+| `scripts/` | The end-to-end analysis workflow |
+| `outputs/` | Supplier scorecards, inventory priorities, backtest predictions, metrics and figures |
+| `tests/` | Checks for data grain, classification logic and forecast evaluation |
 
-## Run the project
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python scripts/run_analysis.py
-pytest -q
-```
-
-The pipeline recreates every file in `outputs/` from the four CSV files in `data/`.
+The saved outputs make the complete decision trail visible without requiring the reader to configure a local Python environment.
 
 ## Limits and next development steps
 
