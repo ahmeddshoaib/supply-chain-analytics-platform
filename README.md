@@ -99,4 +99,4 @@ The data is synthetic and the forecasting methods are intentionally transparent 
 MSc Business Analytics, Queen's University Belfast<br>
 Supply chain operations experience across imports, procurement, customs, logistics and Oracle ERP
 
-[LinkedIn](https://www.linkedin.com/in/ahmed-shoaibed) | [Email](mailto:mshoaib01@qub.ac.uk)
+[LinkedIn](https://www.linkedin.com/in/ahmed-shoaibed) | [Email](mailto:ahmedshoaibedu@gmail.com)
