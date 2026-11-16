@@ -14,7 +14,7 @@ The data is synthetic, while the choice of questions reflects my work across imp
 
 ## Professional relevance
 
-At Ibrahim Fibres, I worked across imported and local purchasing, machinery and spare parts, raw materials, letters of credit, customs, shipment tracking, transport and Oracle processing. I also maintained daily Excel reporting on shipment position, lead time, delivery and supplier performance. This repository converts that operational perspective into a public analytical example without reproducing an employer process, system or dataset.
+At Ibrahim Fibres, I controlled Oracle purchasing and import workflows from requisition and PO records through pro forma invoice validation, letters of credit, freight, insurance, customs, landed cost and receipt status. I tracked HS-coded materials and shipments by PO/LC, quantity, packages, weight, vessel, departure, ETA and port-to-plant milestone, using supplier and lead-time reports to surface exceptions and coordinate follow-up across suppliers, banks, finance, customs, logistics, warehouses and production. I also collaborated on a daily Excel dashboard covering stock, in-transit orders, consumption and coverage days. This repository converts that operational perspective into a public analytical example without reproducing an employer process, system or dataset.
 
 The scenarios are deliberately recognisable to an operations team: a late supplier matters more when spend or material dependence is high; a below-reorder item matters more when it holds a large share of inventory value; and a forecasting method should earn complexity through chronological out-of-sample performance. The code demonstrates how I structure those decisions, while every numerical result comes from the synthetic files in this repository.
 
@@ -88,6 +88,20 @@ The current validation report covers:
 | `tests/` | Checks for data grain, classification logic and forecast evaluation |
 
 The saved outputs make the complete decision trail visible without requiring the reader to configure a local Python environment.
+
+## Run locally
+
+Use Python 3.11 or later.
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python scripts/run_analysis.py
+python -m pytest -q
+```
+
+The repository uses synthetic manufacturing data included under `data/`; no employer data is required.
 
 ## Limits and next development steps
 
